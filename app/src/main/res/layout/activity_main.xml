@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="小黑记账"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:id="@+id/sr"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="记收入"
+        android:background="@drawable/shap_item_cellcolor_bg"
+        android:textSize="23sp"/>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:id="@+id/zc"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="记支出"
+        android:background="@drawable/shap_item_cellcolor_bg"
+        android:textSize="23sp"/>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:id="@+id/lssr"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="历史收入"
+        android:background="@drawable/shap_item_cellcolor_bg"
+        android:textSize="23sp"/>
+
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:id="@+id/lszc"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="历史支出"
+        android:background="@drawable/shap_item_cellcolor_bg"
+        android:textSize="23sp"/>
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:id="@+id/p"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="表扬"
+        android:background="@drawable/shap_item_cellcolor_bg"
+        android:textSize="23sp" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:id="@+id/c"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="批评"
+        android:background="@drawable/shap_item_cellcolor_bg"
+        android:textSize="23sp"/>
+
+</LinearLayout>

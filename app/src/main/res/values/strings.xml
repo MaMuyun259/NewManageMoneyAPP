@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NewManageMoneyAPP</string>
+    <string name="p_h">小黑膜拜膜拜膜拜你</string>
+    <string name="p_b">小白膜拜膜拜膜拜你</string>
+    <string name="p_a">阿根膜拜膜拜膜拜你</string>
+    <string name="c_h">小黑鄙视鄙视鄙视你</string>
+    <string name="c_b">小白鄙视鄙视鄙视你</string>
+    <string name="c_a">阿根鄙视鄙视鄙视你</string>
+    <string name="p">每天多省一点点</string>
+    <string name="p2">美好生活在眼前</string>
+    <string name="c">吃吃吃就知道吃</string>
+    <string name="c2">玩玩玩就知道玩</string>
+</resources>
